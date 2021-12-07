@@ -2,7 +2,7 @@ import React from 'react';
 import MedicalTreatment from './MedicalTreatment';
 function MedicalTreatmentList(props){
   const MedicalTreatmentListJson = props.json;
-  const MedicalTreatmentList= JSON.prase(MedicalTreatmentListJson);
+  const MedicalTreatmentList= JSON.parse(MedicalTreatmentListJson);
   const ListMedicalTreatmentList = MedicalTreatmentList.map(
       (MedicalTreatment) => 
     <li>
